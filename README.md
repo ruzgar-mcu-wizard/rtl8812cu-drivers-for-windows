@@ -16,7 +16,7 @@ Choose **No** if you dont want to reinstall.
 
 [Download EXE](./rtl8812cu.exe)
 
-If you are paranoid you can check it in [VirusTotal]([https://www.virustotal.com/gui/home/upload])
+If you are paranoid you can check it in [VirusTotal](https://www.virustotal.com/gui/home/upload).
 
 ![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8212CU 802.11ac USB Wi-Fi dongle")
 
