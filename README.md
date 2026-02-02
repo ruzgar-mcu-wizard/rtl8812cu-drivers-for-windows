@@ -40,6 +40,8 @@ If you are paranoid you can check it in [VirusTotal](https://www.virustotal.com/
 
 ![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8212CU 802.11ac USB Wi-Fi dongle")
 
+*For reference only*
+
 ## Contact
 Questions, driver issues, or cursed Wi-Fi setups? Reach me at: **ruzgarefecelik67@gmail.com**
 
