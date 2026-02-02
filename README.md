@@ -7,7 +7,7 @@
 - 📶 Works with RTL8212CU 802.11ac USB Wi-Fi adapters
 - ✅ Just works — plug in, run installer, get Wi-Fi
 - ❌ No maintenance, no updates, no nonsense
-- 📱 Known Working Devices: RTL8812CU 
+- 📱 Known Working Devices: RTL8812CU (VID: 0BDA PID: C812)
 
 ## Installation
 
