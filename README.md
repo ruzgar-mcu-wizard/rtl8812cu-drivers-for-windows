@@ -32,6 +32,8 @@ Digital Driver Signer is **Microsoft Windows Hardware Compatibility Publisher**.
 
 If you want to install **manually**, go to **Device Manager** (or Win+R, devmgmt.msc, enter), **right click the dongle**, go to **Drivers** tab, **Update Drivers**, **Browse drivers**, open the compatible version (**Windows 10 driver** for **Windows 11**, **Windows 8 x86 driver** for **Windows 8.1 x86**), click **Finish**, done!
 
+The manual install drivers are inside [Here](./Realtek/WifiAutoInstall).
+
 ## Hashes
 
 *SHA256*: 091FF20ECC58A964339FC3FE158076D4FF82151261291EB37A8CBB2773368CD3
