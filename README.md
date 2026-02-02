@@ -5,7 +5,7 @@
 - ⚡ Single EXE installer (9.88 MB), installs 82.06 MB
 - 💻 Supports Windows 7, 8, 8.1, 10, and 11 (x86 & x64)
 - 📶 Works with RTL8212CU 802.11ac USB Wi-Fi adapters
-- ✅ Just works — plug, run, Wi-Fi
+- ✅ Just works — plug in, run installer, get Wi-Fi
 - ❌ No maintenance, no updates, no nonsense
 
 If you run the installer you'll see:
