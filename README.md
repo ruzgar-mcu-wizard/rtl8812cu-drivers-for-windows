@@ -8,6 +8,7 @@
 - ✅ **Just works** — plug in, run installer, get Wi-Fi
 - ❌ **No maintenance, no updates, no nonsense**
 - 📱 **Known Working Devices: RTL8212CU (VID: 0BDA PID: C812)**
+- 📡 **Only works with RTL8212CU, don’t plug in random Wi-Fi dongles expecting magic.**
 
 ## Installation
 
@@ -22,7 +23,7 @@ If you run the installer again while it’s already installed, you’ll see:
 ![Overwrite?](./images/overwrite.PNG)
 
 Choose **Yes** if you want to reinstall.
-Choose **No** if you dont want to reinstall.
+Choose **No** if you don't want to reinstall.
 
 [Download EXE](./rtl8212cu.exe)
 
