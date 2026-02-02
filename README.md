@@ -17,8 +17,6 @@ If you run the installer you'll see:
 
 Click **Install** to install.
 
-
-
 If you run the installer again while it’s already installed, you’ll see:  
 
 ![Overwrite?](./images/overwrite.PNG)
