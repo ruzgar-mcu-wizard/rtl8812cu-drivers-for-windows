@@ -49,7 +49,7 @@ The manual install drivers are inside [**Here**](./Realtek/WifiAutoInstall).
 
 ![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8212CU 802.11ac USB Wi-Fi dongle")
 
-*For reference only*
+            *For reference only*
 
 ## Contact
 Questions, driver issues, or cursed Wi-Fi setups? Reach me at: **ruzgarefecelik67@gmail.com**
