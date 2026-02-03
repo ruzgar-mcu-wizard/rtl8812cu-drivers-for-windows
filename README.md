@@ -1,15 +1,15 @@
 [![License](https://img.shields.io/badge/License-View-blue.svg)](./LICENSE)
 
-## Realtek RTL8212CU 802.11ac USB Wi-Fi Driver for Windows
+## Realtek RTL8812CU 802.11ac USB Wi-Fi Driver for Windows
 
 - ⚡ **Single EXE installer** (*9.88 MB*), installs *82.06 MB*
 - ⚡ Manual install using **.cat** and **.inf** files
 - 💻 **Supports** Windows 7, 8, 8.1, 10, and 11 (x86 & x64)
-- 📶 **Works with** *RTL8212CU* 802.11ac USB Wi-Fi adapters
+- 📶 **Works with** *RTL8812CU* 802.11ac USB Wi-Fi adapters
 - ✅ **Just works** — plug in, run installer, get Wi-Fi
 - ❌ **No maintenance, no updates, no nonsense**
-- 📱 **Known Working Devices: RTL8212CU (VID: 0BDA PID: C812)**
-- 📡 **Only works with RTL8212CU, don’t plug in random Wi-Fi dongles expecting magic.**
+- 📱 **Known Working Devices: RTL8812CU (VID: 0BDA PID: C812)**
+- 📡 **Only works with RTL8812CU, don’t plug in random Wi-Fi dongles expecting magic.**
 
 ## Installation
 
@@ -25,7 +25,7 @@ Choose **Yes** if you want to reinstall.
 
 Choose **No** if you don't want to reinstall.
 
-[Download EXE](./rtl8212cu.exe)
+[Download EXE](./rtl8812cu.exe)
 
 If you are paranoid you can check it in [VirusTotal](https://www.virustotal.com/gui/file-analysis/MjQyODY5ZWE5MTdiOTc1NWYwMTBiNDM0ZmNjYjJlZTU6MTc3MDAyOTg2Nw==).
 
@@ -45,9 +45,9 @@ The manual install drivers are inside [**Here**](./Realtek/WifiAutoInstall).
 
 *MD5*: ```603BF3F021228A732D8DE75F70ED0B2```
 
-## RTL8212CU USB Dongle
+## RTL8812CU USB Dongle
 
-![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8212CU 802.11ac USB Wi-Fi dongle")
+![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8812CU 802.11ac USB Wi-Fi dongle")
 
 *For reference only*
 
