@@ -42,7 +42,7 @@ If you are paranoid you can check it in [VirusTotal](https://www.virustotal.com/
 
 If you want to install **manually**, go to **Device Manager** (or Win+R, devmgmt.msc, enter), **right click the dongle**, go to **Drivers** tab, **Update Drivers**, **Browse drivers**, open the compatible version (**Windows 10 driver** for **Windows 11**, **Windows 8 x86 driver** for **Windows 8.1 x86**), click **Finish**, done!
 
-The manual install drivers are inside [**Here**](./Realtek/WifiAutoInstall).
+The manual install drivers are [**Here**](./Realtek/WifiAutoInstall).
 
 ## Hashes
 
