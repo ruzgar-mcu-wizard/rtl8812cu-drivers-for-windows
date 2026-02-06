@@ -27,7 +27,7 @@ Choose **No** if you don't want to reinstall.
 
 [Download Setup](./rtl8812cu.exe)
 
-### Antivirus False Positives
+## Antivirus False Positives
 
 Some antivirus engines may flag this installer due to:
 - Kernel-mode driver installation
