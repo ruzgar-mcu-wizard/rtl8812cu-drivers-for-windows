@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Endless Bouncy Sweep</title>
+<style>
+  body { margin: 0; background: #111; display: flex; flex-direction: column; align-items: center; color: #fff; font-family: sans-serif; }
+  canvas { background: #222; display: block; margin-top: 20px; }
+  button { margin-top: 10px; padding: 10px 20px; font-size: 16px; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<canvas id="gameCanvas" width="600" height="400"></canvas>
+<button id="dropBtn">DROP BALL</button>
+
+<script>
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+
+const START_Y = 30;
+const RESET_DELAY_MS = 1000;
+
+// ball: small, starts higher, gentle gravity
+const ball = {
+  x: 50,
+  y: START_Y,
+  radius: 8,
+  dx: 2,
+  dy: 0,
+  gravity: 0.2,
+  isDropping: false,
+  sweeping: true,
+  resetTimer: null,
+};
+
+// grid of dots + bottom layer
+const dots = [];
+const rows = 5;
+const cols = 8;
+const spacingX = 65;
+const spacingY = 50;
+const offsetX = 50;
+const offsetY = 100;
+
+for (let r = 0; r < rows; r++) {
+  for (let c = 0; c < cols; c++) {
+    dots.push({
+      x: offsetX + c * spacingX,
+      y: offsetY + r * spacingY,
+      radius: 5,
+    });
+  }
+}
+
+function drawBall() {
+  ctx.beginPath();
+  ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI * 2);
+  ctx.fillStyle = 'orange';
+  ctx.fill();
+  ctx.closePath();
+}
+
+function drawDots() {
+  ctx.fillStyle = 'lime';
+  dots.forEach(dot => {
+    ctx.beginPath();
+    ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.closePath();
+  });
+}
+
+function resetBall() {
+  ball.y = START_Y;
+  ball.dy = 0;
+  ball.dx = 2;
+  ball.sweeping = true;
+  ball.isDropping = false;
+  ball.resetTimer = null;
+}
+
+function scheduleReset() {
+  if (ball.resetTimer) {
+    return;
+  }
+  ball.resetTimer = setTimeout(resetBall, RESET_DELAY_MS);
+}
+
+function handleWallBounce() {
+  if (ball.x + ball.radius > canvas.width || ball.x - ball.radius < 0) {
+    ball.dx *= -1;
+  }
+}
+
+function handleDotBounce(dyMultiplier) {
+  dots.forEach(dot => {
+    const dist = Math.hypot(ball.x - dot.x, ball.y - dot.y);
+    if (dist < ball.radius + dot.radius) {
+      ball.dy = -Math.abs(ball.dy) * dyMultiplier;
+    }
+  });
+}
+
+function update() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  drawDots();
+  drawBall();
+
+  if (ball.sweeping) {
+    // horizontal sweep
+    ball.x += ball.dx;
+    handleWallBounce();
+
+    // gentle bob while sweeping
+    ball.dy += ball.gravity * 0.2;
+    ball.y += ball.dy;
+    if (ball.y < START_Y) {
+      ball.y = START_Y;
+      ball.dy = 0;
+    }
+
+    // bounce lightly from dots while sweeping
+    dots.forEach(dot => {
+      const dist = Math.hypot(ball.x - dot.x, ball.y - dot.y);
+      if (dist < ball.radius + dot.radius) {
+        ball.dy = -Math.abs(ball.dx) * 0.5;
+      }
+    });
+
+    if (ball.isDropping) {
+      ball.sweeping = false; // start gravity drop
+    }
+  } else {
+    // gravity physics
+    ball.dy += ball.gravity;
+    ball.y += ball.dy;
+    ball.x += ball.dx;
+
+    handleWallBounce();
+    handleDotBounce(1);
+
+    // floor detection
+    if (ball.y + ball.radius > canvas.height) {
+      ball.y = canvas.height - ball.radius;
+      ball.dy = 0;
+      scheduleReset();
+    }
+  }
+
+  requestAnimationFrame(update);
+}
+
+document.getElementById('dropBtn').addEventListener('click', () => {
+  ball.isDropping = true;
+  if (ball.resetTimer) {
+    clearTimeout(ball.resetTimer);
+    ball.resetTimer = null;
+  }
+});
+
+update();
+</script>
+
+</body>
+</html>
