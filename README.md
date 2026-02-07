@@ -19,13 +19,24 @@
 | Chipset   | Support   | Notes                     |
 | --------- | --------- | ------------------------- |
 | RTL8812CU | ✅ Yes   | This repo                 |
-| RTL8812AU | ❌ No    | Different architecture    |
-| RTL8812BU | ❌ No    | Different architecture    |
-| RTL8811AU | ❌ No    | Requires different driver |
 | RTL8811CU | ❌ No    | Requires different driver |
 | RTL8821CU | ❌ No    | Requires different driver |
+| RTL8822CU | ❌ No    | Requires different driver |
+| RTL8812AU | ❌ No    | Requires different driver |
+| RTL8821AU | ❌ No    | Requires different driver |
+| RTL8822AU | ❌ No    | Requires different driver |
 | RTL8814AU | ❌ No    | Requires different driver |
-| That Random Aliexpress Dongle | ❌ No | Who knows what it is |
+| RTL8812BU | ❌ No    | Requires different driver |
+| RTL8821BU | ❌ No    | Requires different driver |
+| RTL8822BU | ❌ No    | Requires different driver |
+| RTL8852CU | ❌ No    | Requires different driver |
+| RTL8852BU | ❌ No    | Requires different driver |
+| RTL8192CU | ❌ No    | Requires different driver |
+| RTL8192EU | ❌ No    | Requires different driver |
+| RTL8188CU | ❌ No    | Requires different driver |
+| RTL8188EU | ❌ No    | Requires different driver |
+| RTL8188FU | ❌ No    | Requires different driver |
+| That Random Aliexpress Dongle | ❌ No | Who knows what it does |
 
 ## Architecture
 Do not forget that x64 is for 64-bit Windows installation, x86 is for 32-bit Windows installation.
