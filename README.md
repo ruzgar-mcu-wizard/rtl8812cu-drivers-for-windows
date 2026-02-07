@@ -27,6 +27,7 @@
 - [Manual Installation](#manual-installation)
 - [Setup Hashes](#setup-hashes)
 - [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
+- [Hashes](./checksum.txt)
 - [RTL8812CU USB Dongle](#rtl8812cu-usb-dongle)
 - [Troubleshooting](#troubleshooting)
 - [Contact](#contact)
