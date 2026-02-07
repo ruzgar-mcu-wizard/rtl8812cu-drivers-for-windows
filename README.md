@@ -10,6 +10,17 @@
 - ❌ **No maintenance, no updates, no nonsense**
 - 📱 **Known Working Devices: RTL8812CU (VID: 0BDA PID: C812)**
 - 📡 **Only works with RTL8812CU, don’t plug in random Wi-Fi dongles expecting magic.**
+- 🗃 Driver Version: 1030.44.727.2022
+- 📆 Release Date: 18.10.2022
+- 📥 Source: Realtek OEM Package
+
+⚠ IMPORTANT  
+
+This driver ONLY supports RTL8812CU chipsets.  
+
+If your adapter uses RTL8811CU / RTL8821CU / RTL8812AU, this will NOT work.
+
+Only known working devices are ONLY RTL8812CU.
 
 ## Installation
 
@@ -102,7 +113,7 @@ The manual install drivers are [**Here**](./Realtek/WifiAutoInstall).
 
 4. Still Broken?
   - Go to [**Here**](./Realtek/WifiAutoInstall), run the **unins000.exe**, re-install driver.
-  - If that doesn't work, check the dongle's **VID and PID** (Hardware IDs) from Device Manager, **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Details**, **Feature**, choose **Hardware IDs**, make sure its **USB\VID_0BDA&PID_C812** (or close like **USB\VID_0BDA&PID_C812&REV_0000**)
+  - If that doesn't work, check the dongle's **VID and PID** (Hardware IDs) from Device Manager, **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Details**, **Property**, choose **Hardware IDs**, make sure its **USB\VID_0BDA&PID_C812** (or close like **USB\VID_0BDA&PID_C812&REV_0000**)
 
 ## Contact
 Questions, driver issues, or cursed Wi-Fi setups? Reach me at: **ruzgarefecelik67@gmail.com**
