@@ -16,7 +16,7 @@
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
-Chipset......Support...Notes 
+Chipset..........Support...Notes 
 
 RTL8812CU....✅ Yes....This repo 
 
