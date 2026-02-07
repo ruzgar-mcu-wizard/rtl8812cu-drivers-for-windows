@@ -4,7 +4,7 @@
 
 - ⚡ **Single EXE installer** (*9.88 MB*), installs *94.4 MB*
 - ⚡ Manual install using **.cat** and **.inf** files
-- 💻 **Supports** Windows 7, 8, 8.1, 10, and 11 (x86 & x64)
+- 💻 **Supports** Windows XP, Vista, 7, 8, 8.1, 10, and 11 (x86 & x64)
 - 📶 **Works with** *RTL8812CU* 802.11ac USB Wi-Fi adapters
 - ✅ **Just works** — plug in, run installer, get Wi-Fi
 - ❌ **No maintenance, no updates, no nonsense**
