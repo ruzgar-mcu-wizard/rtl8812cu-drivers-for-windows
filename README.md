@@ -14,13 +14,30 @@
 - 📆 Release Date: 18.10.2022
 - 📥 Source: Realtek OEM Package
 
+## Table of Contents
+- [Realtek RTL8812CU Driver](#realtek-rtl8812cu-80211ac-usb-wi-fi-driver-for-windows)
+- [Quick Install](#quickinstall)
+- [Supported vs Unsupported Dongles](#supported-vs-unsupported-dongles--important)
+- [Architecture](#archirtecture)
+- [Why Does This Exist?](#why-does-this-exist)
+- [Installation](#installation)
+- [Download](#download)
+- [How To Check Your Dongle](#how-to-check-your-dongle)
+- [Antivirus False Positives](#antivirus-false-positives)
+- [Manual Installation](#manual-installation)
+- [Setup Hashes](#setup-hashes)
+- [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
+- [RTL8812CU USB Dongle](#rtl8812cu-usb-dongle)
+- [Troubleshooting](#troubleshooting)
+- [Contact](#contact)
+
 ## Quick Install
 - Download rtl8812cu.exe
 - Plug dongle
 - Run installer
 - Reboot
 
-If it doesnt work, go to  [Troubleshooting](## Troubleshooting)
+If it doesnt work, go to [Troubleshooting](#troubleshooting)
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
@@ -142,22 +159,25 @@ The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Drivers).
 *For reference only*
 
 ## Troubleshooting
-1. Device Not Detected
+
+1. If your dongle explodes, skill issue.
+  
+2. Device Not Detected
   - Try **rebooting** your PC,
   - Try a **different USB** port,
   - Do **not** use hubs or extension cables,
   - Open **Device Manager**, check under **Network Adapters** and **Universal Serial Bus Controllers**
 
-2. Wi-Fi Not Working
+3. Wi-Fi Not Working
   - Try **rebooting** your PC,
   - Use the **Rear USB** ports (if you were using front USB ports and rear is available),
   - Try a **powered hub** (if you have one),
 
-3. Random Disconnects
+4. Random Disconnects
   - Try **rebooting** your PC,
   - Go to **Device Manager** (or Win+R, devmgmt.msc, enter), Go to **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Power Management** tab, **Uncheck Allow Windows to turn off this device to save power**, Reboot
 
-4. Still Broken?
+5. Still Broken?
   - Go to [**Here**](./Realtek/WifiAutoInstall), run the **unins000.exe**, re-install driver. (Or launch the setup again, click **Yes** to the overwrite message, then click **Install**)
   - If that doesn't work, check the dongle's **VID and PID** (Hardware IDs) from Device Manager, **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Details**, **Property**, choose **Hardware IDs**, make sure its **USB\VID_0BDA&PID_C812** (or close like **USB\VID_0BDA&PID_C812&REV_0000**)
 
