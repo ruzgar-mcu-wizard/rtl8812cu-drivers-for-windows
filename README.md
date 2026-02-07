@@ -22,6 +22,7 @@
 | RTL8811CU | ❌ No    | Requires different driver |
 | RTL8821CU | ❌ No    | Requires different driver |
 | RTL8812AU | ❌ No    | Different architecture    |
+| That Random Aliexpress Dongle | ❌ No | Who knows what it is |
 
 ## Architecture
 Do not forget that x64 is for 64-bit Windows installation, x86 is for 32-bit Windows installation.
