@@ -1,4 +1,4 @@
-c.[![License](https://img.shields.io/badge/License-View-blue.svg)](./LICENSE)
+[![License](https://img.shields.io/badge/License-View-blue.svg)](./LICENSE)
 
 ## Realtek RTL8812CU 802.11ac USB Wi-Fi Driver for Windows
 
