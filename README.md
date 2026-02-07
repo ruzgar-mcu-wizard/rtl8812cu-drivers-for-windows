@@ -16,11 +16,11 @@
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
-- Chipset    Supported   Notes 
-- RTL8812CU  ✅ Yes      This repo 
-- RTL8811CU  ❌ No       Different driver required 
-- RTL8821CU  ❌ No       Different driver required 
-- RTL8812AU  ❌ No       Different architecture 
+Chipset    Supported   Notes 
+RTL8812CU  ✅ Yes      This repo 
+RTL8811CU  ❌ No       Different driver required 
+RTL8821CU  ❌ No       Different driver required 
+RTL8812AU  ❌ No       Different architecture 
 
 
 ## Why Does This Exist?
