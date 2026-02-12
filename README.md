@@ -88,6 +88,8 @@ Choose **No** if you don't want to reinstall.
 
 [Download Setup](./rtl8812cu.exe)
 
+[Download Source](./)
+
 ## How To Check Your Dongle
 
 - **Plug in** the dongle
