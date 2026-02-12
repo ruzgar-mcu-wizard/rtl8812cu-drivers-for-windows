@@ -88,7 +88,7 @@ Choose **No** if you don't want to reinstall.
 
 [Download Setup](./rtl8812cu.exe)
 
-[Download Source](./)
+[Download Source](./Driver-Source-Code.zip)
 
 ## How To Check Your Dongle
 
