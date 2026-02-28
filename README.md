@@ -133,11 +133,11 @@ If you want to install **manually**:
 
 - **Browse drivers**
 
-- Open the compatible version for your OS (**Windows 10 driver** for **Windows 11**, **Windows 8 x86 driver** for **Windows 8.1 x86**, dont forget to match **Architecture (x86 / x64)**)
+- Open the compatible version for your OS (Dont forget to match **Architecture (x86 / x64)**)
 
 - Click **Finish**, done!
 
-The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Drivers).
+The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Drivers) and [**Here**](./Driver-Source-Code.zip)
 
 ## Setup Hashes
 
@@ -160,17 +160,17 @@ The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Drivers).
 
 *SHA256*:
 ```
-79AD3B5CE5D5995BE1E4FD8844A4B244F6C23AAD64C9D5D908250F54139C3A99
+25E92FCD41DD8E06D3E7760EE48A6A0117691446865C50243E1EB876FAFDF14F
 ```
 
 *SHA512*:
 ```
-C3724F4EB682F14E21EBE6229DFBFEEB84CE99B5B5FA9461DE6448D80933F4855519FD4BA5ED1FC43CA27EDA138C0F050DAEC5224B310061D8F1A4C5B9825CB9
+E46858F0DA552D2CDEC421F168F6FD674C087176000246C47D9F7D1BC6F38B4FEC7BC229D718ADC8C5C0DCA10EF03908ACAD08FA4F729517A73205D7BE161312
 ```
 
 *MD5*:
 ```
-A4A66356CD983E0A324664899C8C9779
+566A402AF18DC1A1A62DFBB11304DDBC
 ```
 
 ## RTL8812CU USB Dongle
