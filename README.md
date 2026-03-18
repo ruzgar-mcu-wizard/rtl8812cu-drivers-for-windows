@@ -19,6 +19,7 @@
 ## Table of Contents
 - [Realtek RTL8812CU Driver](#realtek-rtl8812cu-80211ac-usb-wi-fi-driver-for-windows)
 - [Quick Install](#quick-install)
+- [Supported vs Unsupported Windows Versions](#supported-vs-unsupported-windows-versions)
 - [Supported vs Unsupported Dongles](#supported-vs-unsupported-dongles--important)
 - [Architecture](#architecture)
 - [Why Does This Exist?](#why-does-this-exist)
@@ -41,6 +42,18 @@
 - Reboot
 
 If it doesnt work, go to [Troubleshooting](#troubleshooting)
+
+## Supported vs Unsupported Windows Versions
+
+| Windows       | Support   | Notes        |
+| ------------- | --------- | ------------ |
+| Windows 11    | ✅ Yes    | Tested      |
+| Windows 10    | ✅ Yes    | Tested      |
+| Windows 8.1   | ✅ Yes    | Tested      |
+| Windows 8     | ✅ Yes    | Tested      |
+| Windows 7     | ✅ Yes    | Tested      |
+| Windows Vista | ❌ No     | Not Working |
+| Windows XP    | ❌ No     | Not Working |
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
