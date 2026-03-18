@@ -1,5 +1,7 @@
 [![License](https://img.shields.io/badge/License-View-blue.svg)](./LICENSE)
 
+![Realtek Logo](./images/realtek-logo.svg)
+
 ## Realtek RTL8812CU 802.11ac USB Wi-Fi Driver for Windows
 
 - ⚡ **Single EXE installer** (*9.88 MB*), installs *94.4 MB*
