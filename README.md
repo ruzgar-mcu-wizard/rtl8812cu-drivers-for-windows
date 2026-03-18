@@ -152,7 +152,7 @@ If you want to install **manually**:
 
 - Click **Finish**, done!
 
-The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Drivers) and [**Here**](./Driver-Source-Code.zip)
+The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Driver) and [**Here**](./Driver-Source-Code.zip)
 
 ## Setup Hashes
 
