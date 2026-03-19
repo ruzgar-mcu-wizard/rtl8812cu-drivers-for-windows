@@ -28,8 +28,9 @@
 - [How To Check Your Dongle](#how-to-check-your-dongle)
 - [Antivirus False Positives](#antivirus-false-positives)
 - [Manual Installation](#manual-installation)
-- [Setup Hashes](#setup-hashes)
-- [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
+- [Hashes](#hashes)
+- [Setup Hashes](##setup-hashes)
+- [Driver-Source-Code.zip Hashes](##driver-source-codezip-hashes)
 - [Checksums](./checksum.txt)
 - [RTL8812CU USB Dongle](#rtl8812cu-usb-dongle)
 - [Troubleshooting](#troubleshooting)
@@ -128,9 +129,9 @@ Some antivirus engines may flag this installer due to:
 
 The driver is **Microsoft Windows Hardware Compatibility Publisher** signed and sandbox analysis (CAPA / Zenbox / VirusTotal Jujubox / CAPE Sandbox / C2AE) shows no malicious behavior.
 
-You can check the Setup here: [VirusTotal](https://www.virustotal.com/gui/file/32d5194252fe20ce4ded077daa05f49340ff367526231e11c7ded7646d0df8f1).
+You can check the Setup here: [VirusTotal](https://www.virustotal.com/gui/file/32d5194252fe20ce4ded077daa05f49340ff367526231e11c7ded7646d0df8f1/detection).
 
-You can check the Driver Source Code here: [VirusTotal](https://www.virustotal.com/gui/file/79ad3b5ce5d5995be1e4fd8844a4b244f6c23aad64c9d5d908250f54139c3a99) (Obsolete link!)
+You can check the Driver Source Code here: [VirusTotal](https://www.virustotal.com/gui/file/e537f2e06e18e78c1850e4e5b9a8a5609b8e4ae5599a6a3338ae6ed3a9874f98/detection)
 
 All driver files retain original Microsoft signatures.
 
@@ -154,7 +155,9 @@ If you want to install **manually**:
 
 The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Driver) and [**Here**](./Driver-Source-Code.zip)
 
-## Setup Hashes
+## Hashes
+
+### Setup Hashes
 
 *SHA256*:
 ```
@@ -171,7 +174,7 @@ The manual install drivers are [**Here**](./Realtek/WifiAutoInstall/Driver) and 
 36F3B7C226FC05E29929BEA264AD0A3A
 ```
 
-## Driver-Source-Code.zip Hashes
+### Driver-Source-Code.zip Hashes
 
 *SHA256*:
 ```
