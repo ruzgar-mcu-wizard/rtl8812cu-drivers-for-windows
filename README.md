@@ -114,11 +114,9 @@ Choose **No** if you don't want to reinstall.
 - Go to **Details** tab
 - Select **Hardware IDs**
 
-The ID should be ONLY these:
+The ID should be ONLY this (or close):
 
 **USB\VID_0BDA&PID_C812**
-
-**USB\VID_0BDA&PID_C812&REV_0000**
 
 ## Antivirus False Positives
 
