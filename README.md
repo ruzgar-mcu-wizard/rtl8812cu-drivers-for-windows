@@ -56,6 +56,8 @@ If it doesnt work, go to [Troubleshooting](#troubleshooting)
 | Windows Vista | ❌ No     | Not Working |
 | Windows XP    | ❌ No     | Not Working |
 
+*All versions tested in VM's, confirmed*
+
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
 | Chipset   | Support   | Notes                     |
