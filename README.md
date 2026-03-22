@@ -42,7 +42,7 @@
 - Run installer
 - Reboot
 
-If it doesnt work, go to [Troubleshooting](#troubleshooting)
+If it doesnt work, see [Troubleshooting](#troubleshooting)
 
 ## Supported vs Unsupported Windows Versions
 
