@@ -5,7 +5,7 @@
 ## Realtek RTL8812CU 802.11ac USB Wi-Fi Driver for Windows
 
 - ⚡ **Single EXE installer** (*9.88 MB*), installs *94.4 MB*
-- ⚡ Manual install using **.cat** and **.inf** files
+- ⚡ Manual install using **.inf** files
 - 💻 **Supports** Windows 7, 8, 8.1, 10, and 11 (x86 & x64)
 - 📶 **Works with** *RTL8812CU* 802.11ac USB Wi-Fi adapters
 - ✅ **Just works** — plug in, run installer, get Wi-Fi
@@ -24,15 +24,15 @@
 - [Architecture](#architecture)
 - [Why Does This Exist?](#why-does-this-exist)
 - [Installation](#installation)
-- [Download](#download)
+    - [Download](#download)
 - [How To Check Your Dongle](#how-to-check-your-dongle)
 - [Antivirus False Positives](#antivirus-false-positives)
 - [Manual Installation](#manual-installation)
 - [Hashes](#hashes)
-- [Setup Hashes](#setup-hashes)
-- [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
-- [Checksums](./checksum.txt)
-- [RTL8812CU USB Dongle](#rtl8812cu-usb-dongle)
+    - [Setup Hashes](#setup-hashes)
+    - [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
+    - [Checksums Text File](./checksum.txt)
+- [RTL8812CU USB Dongle Photo](#rtl8812cu-usb-dongle-photo)
 - [Troubleshooting](#troubleshooting)
 - [Contact](#contact)
 
@@ -56,7 +56,7 @@ If it doesnt work, see [Troubleshooting](#troubleshooting)
 | Windows Vista | ❌ No     | Not Working |
 | Windows XP    | ❌ No     | Not Working |
 
-*All versions tested in VM's, confirmed*
+*All versions tested in VM's, confirmed working.*
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
@@ -85,8 +85,14 @@ If it doesnt work, see [Troubleshooting](#troubleshooting)
 ## Architecture
 Do not forget that x64 is for 64-bit Windows installation, x86 is for 32-bit Windows installation.
 
+TL;DR:
+
+x64 = 64-bit
+
+x86 = 32-bit
+
 ## Why Does This Exist?
-Many RTL8812CU adapters ship without reliable Windows drivers or rely on outdated OEM packages. This repository provides a verified, clean, and easy-to-install driver bundle.
+Many RTL8812CU adapters ship without reliable Windows drivers, rely on outdated OEM packages or dont have a driver at all. This repository provides a verified, clean, and easy-to-install driver bundle.
 
 ## Installation
 
@@ -98,7 +104,7 @@ If you run the installer again while it’s already installed, you’ll see:
 
 ![Overwrite?](./images/overwrite.PNG)
 
-Choose **Yes** if you want to reinstall.
+Choose **Yes** if you want to reinstall. (Also see [Troubleshooting](#troubleshooting))
 
 Choose **No** if you don't want to reinstall.
 
@@ -116,7 +122,7 @@ Choose **No** if you don't want to reinstall.
 - Go to **Details** tab
 - Select **Hardware IDs**
 
-The ID should be ONLY this (or close):
+The ID should be ONLY this:
 
 **USB\VID_0BDA&PID_C812**
 
@@ -129,9 +135,9 @@ Some antivirus engines may flag this installer due to:
 
 The driver is **Microsoft Windows Hardware Compatibility Publisher** signed and sandbox analysis (CAPA / Zenbox / VirusTotal Jujubox / CAPE Sandbox / C2AE) shows no malicious behavior.
 
-You can check the Setup here: [VirusTotal](https://www.virustotal.com/gui/file/32d5194252fe20ce4ded077daa05f49340ff367526231e11c7ded7646d0df8f1/detection).
+You can check the Setup here on VirusTotal: [VirusTotal](https://www.virustotal.com/gui/file/32d5194252fe20ce4ded077daa05f49340ff367526231e11c7ded7646d0df8f1/detection).
 
-You can check the Driver Source Code here: [VirusTotal](https://www.virustotal.com/gui/file/e537f2e06e18e78c1850e4e5b9a8a5609b8e4ae5599a6a3338ae6ed3a9874f98/detection)
+You can check the Driver Source Code here on VirusTotal: [VirusTotal](https://www.virustotal.com/gui/file/e537f2e06e18e78c1850e4e5b9a8a5609b8e4ae5599a6a3338ae6ed3a9874f98/detection)
 
 All driver files retain original Microsoft signatures.
 
@@ -149,7 +155,7 @@ If you want to install **manually**:
 
 - **Browse drivers**
 
-- Open the compatible version for your OS (Dont forget to match **Architecture (x86 / x64)**)
+- Open the compatible version for your OS (Dont forget to match **[Architecture](#architecture)**)
 
 - Click **Finish**, done!
 
@@ -191,7 +197,7 @@ E537F2E06E18E78C1850E4E5B9A8A5609B8E4AE5599A6A3338AE6ED3A9874F98
 528C800767EFF26B5F636DFBF0E3D6B2
 ```
 
-## RTL8812CU USB Dongle
+## RTL8812CU USB Dongle Photo
 
 ![Wi-Fi Dongle](./images/wifi_dongle.png "RTL8812CU 802.11ac USB Wi-Fi dongle")
 
@@ -218,9 +224,9 @@ E537F2E06E18E78C1850E4E5B9A8A5609B8E4AE5599A6A3338AE6ED3A9874F98
 
 5. Still Broken?
   - Go to [**Here**](./Realtek/WifiAutoInstall), run the **unins000.exe**, re-install driver. (Or launch the setup again, click **Yes** to the overwrite message, then click **Install**)
-  - If that doesn't work, check the dongle's **VID and PID** (Hardware IDs) from Device Manager, **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Details**, **Property**, choose **Hardware IDs**, make sure its **USB\VID_0BDA&PID_C812** or close.
+  - If that doesn't work, check the dongle's **VID and PID** (Hardware IDs) from Device Manager, **Network Adapters**, **Find the dongle**, Right click, **Properties**, **Details**, **Property**, choose **Hardware IDs**, make sure its **USB\VID_0BDA&PID_C812**.
 
 ## Contact
 Questions, driver issues, or cursed Wi-Fi setups? Reach me at: **ruzgarefecelik67@gmail.com**
 
-Check my [YouTube channel](https://www.youtube.com/channel/UCh0Gprh0Ou6Ah2s-69SvjJQ) or [Custom ROM Vault](https://bit.ly/m/customromvault) for more cursed projects.
+Check my [YouTube channel](https://www.youtube.com/channel/UCh0Gprh0Ou6Ah2s-69SvjJQ) or [ROM Kasası](https://rom-kasasi.netlify.app/) for more cursed projects.
