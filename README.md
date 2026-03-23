@@ -31,7 +31,7 @@
 - [Hashes](#hashes)
     - [Setup Hashes](#setup-hashes)
     - [Driver-Source-Code.zip Hashes](#driver-source-codezip-hashes)
-    - [Checksums Text File](./checksum.txt)
+    - [Checksums Text File](./checksums.txt)
 - [RTL8812CU USB Dongle Photo](#rtl8812cu-usb-dongle-photo)
 - [Troubleshooting](#troubleshooting)
 - [Contact](#contact)
