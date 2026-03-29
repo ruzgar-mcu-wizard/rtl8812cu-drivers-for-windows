@@ -42,7 +42,7 @@
 - Run installer
 - Reboot
 
-If it doesnt work, see [Troubleshooting](#troubleshooting)
+If it doesn't work, see [Troubleshooting](#troubleshooting)
 
 ## Supported vs Unsupported Windows Versions
 
@@ -92,7 +92,7 @@ x64 = 64-bit
 x86 = 32-bit
 
 ## Why Does This Exist?
-Many RTL8812CU adapters ship without reliable Windows drivers, rely on outdated OEM packages or dont have a driver at all. This repository provides a verified, clean, and easy-to-install driver bundle.
+Many RTL8812CU adapters ship without reliable Windows drivers, rely on outdated OEM packages or don't have a driver at all. This repository provides a verified, clean, and easy-to-install driver bundle.
 
 ## Installation
 
