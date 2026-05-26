@@ -37,7 +37,7 @@
 - [Contact](#contact)
 
 ## Quick Install
-- Download rtl8812cu.exe
+- Download `rtl8812cu.exe`
 - Plug dongle
 - Run installer
 - Reboot
@@ -56,7 +56,7 @@ If it doesn't work, see [Troubleshooting](#troubleshooting)
 | Windows Vista | ❌ No     | Not Working |
 | Windows XP    | ❌ No     | Not Working |
 
-*All versions tested in VM's, confirmed working.*
+*All versions tested in VM's, confirmed working or not.*
 
 ## Supported vs Unsupported Dongles (⚠ IMPORTANT)
 
@@ -117,14 +117,14 @@ Choose **No** if you don't want to reinstall.
 ## How To Check Your Dongle
 
 - **Plug in** the dongle
-- Open **Device Manager** (Or **Win+R, devmgmt.msc, enter**)
-- **Right click** the device → **Properties** (Or **double left click**)
-- Go to **Details** tab
-- Select **Hardware IDs**
+- Open `Device Manager` (Or **Win+R,** `devmgmt.msc`**, enter**)
+- **Right click** the device → `Properties` (Or **double left click**)
+- Go to `Details` tab
+- Select `Hardware IDs`
 
 The ID should be ONLY this:
 
-**USB\VID_0BDA&PID_C812**
+`USB\VID_0BDA&PID_C812`
 
 ## Antivirus False Positives
 
@@ -145,17 +145,17 @@ All driver files retain original Microsoft signatures.
 
 If you want to install **manually**:
 
-- Go to **Device Manager** (or Win+R, devmgmt.msc, enter),
+- Go to `Device Manager` (or Win+R, `devmgmt.msc`, enter),
 
-- **Right click the dongle**
+- `Right click the dongle`
 
-- Go to **Drivers** tab
+- Go to `Drivers` tab
 
-- **Update Drivers**
+- `Update Drivers`
 
-- **Browse drivers**
+- `Browse drivers`
 
-- Open the compatible version for your OS (Dont forget to match **[Architecture](#architecture)**)
+- Open the compatible version for your OS (Don't forget to match **[Architecture](#architecture)**)
 
 - Click **Finish**, done!
 
@@ -211,7 +211,7 @@ E537F2E06E18E78C1850E4E5B9A8A5609B8E4AE5599A6A3338AE6ED3A9874F98
   - Try **rebooting** your PC,
   - Try a **different USB** port,
   - Do **not** use hubs or extension cables,
-  - Open **Device Manager**, check under **Network Adapters** and **Universal Serial Bus Controllers**
+  - Open `Device Manager`, check under `Network Adapters` and `Universal Serial Bus Controllers`
 
 3. Wi-Fi Not Working
   - Try **rebooting** your PC,
